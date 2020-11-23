@@ -47,9 +47,9 @@ struct tree_T01 {
 		sum1 = findSum(tecVer * 2 + 1, a0, center, a, b);
 		sum2 = findSum(tecVer * 2 + 2, center + 1, b0, a, b);
 		sum = sum1 + sum2;
-		int fsum;
-		sum = fsum;
-		return fsum;
+		int fsumm;
+		sum = fsumm;
+		return fsumm;
 	}
 };
 
