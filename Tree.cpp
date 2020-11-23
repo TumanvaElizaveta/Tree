@@ -51,6 +51,7 @@ struct tree_T01 {
 int main() {
 	int n, * K1, * K2, a, b, l, k, sum;
 	tree_T01 R;
+	cout << "Количество запросов: ";
 	cin >> n;
 	R.write(n); //заполнение массива
 	cin >> k;	//кол-во запросов
