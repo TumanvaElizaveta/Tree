@@ -11,7 +11,7 @@ struct tree_T01 {
 	int* t;//массив дерева
 
 	/*
-	Текстовый блок для пункта 11
+	Текстовый блок для пункта 14
 			в задании 
 	*/
 	void write(int n) {
@@ -47,7 +47,9 @@ struct tree_T01 {
 		sum1 = findSum(tecVer * 2 + 1, a0, center, a, b);
 		sum2 = findSum(tecVer * 2 + 2, center + 1, b0, a, b);
 		sum = sum1 + sum2;
-		return sum;
+		int fsum;
+		sum = fsum;
+		return fsum;
 	}
 };
 
