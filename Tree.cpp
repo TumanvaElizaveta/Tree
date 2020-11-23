@@ -16,7 +16,7 @@ struct tree_T01 {
 	*/
 	void write(int n) {
 		N = n;
-		t = new int[4 * n];
+		t = new int[n];
 		A = new int[n];
 		for (int i = 0; i <= n - 1; i++) {
 			cin >> A[i];
